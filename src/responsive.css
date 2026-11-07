@@ -1,0 +1,941 @@
+@media (min-width: 1450px) {
+  main {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .header {
+    padding: 0 64px;
+  }
+  .atlas-layout {
+    grid-template-columns: 235px minmax(400px, 1fr) 360px;
+  }
+  .overview {
+    padding-right: 32px;
+  }
+  .inspector {
+    padding-left: 32px;
+  }
+  .body-stage {
+    height: 680px;
+  }
+  .body-transform {
+    height: 610px;
+    width: 298px;
+  }
+  .body-callout {
+    top: 197px;
+    right: calc(50% + 46px);
+  }
+  .description {
+    font-size: 13px;
+  }
+  .exercise-title strong {
+    font-size: 12px;
+  }
+  .exercise-title small {
+    font-size: 10px;
+  }
+  .exercise-row {
+    padding: 18px 0;
+  }
+  .muscle-total {
+    margin-top: 24px;
+    margin-bottom: 30px;
+  }
+  .overview-note {
+    margin-top: 64px;
+  }
+  .summary-stat {
+    margin-top: 28px;
+  }
+  .map-legend {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 1150px) {
+  .header {
+    padding: 0 28px;
+    gap: 20px;
+  }
+  .header nav {
+    margin-left: 0;
+    gap: 24px;
+  }
+  main {
+    padding: 32px 28px 24px;
+  }
+  .atlas-layout {
+    grid-template-columns: 160px minmax(260px, 1fr) 290px;
+  }
+  .overview {
+    padding-right: 18px;
+  }
+  .inspector {
+    padding-left: 20px;
+  }
+  .inspector h2 {
+    font-size: 22px;
+  }
+  .body-callout span {
+    font-size: 8px;
+    padding: 5px;
+  }
+  .body-callout i {
+    width: 14px;
+  }
+  .body-callout {
+    right: calc(50% + 38px);
+  }
+  .map-foot {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .map-foot > span {
+    font-size: 8px;
+    gap: 4px;
+  }
+  .zoom-tools {
+    gap: 0;
+  }
+  .week-strip {
+    gap: 3px;
+  }
+  .week-strip button {
+    width: 19px;
+    height: 19px;
+  }
+  .muscle-total {
+    align-items: flex-start;
+  }
+  .muscle-total small {
+    max-width: 100px;
+    line-height: 1.6;
+  }
+  .exercise-title {
+    gap: 9px;
+  }
+  .exercise-glyph {
+    width: 35px;
+    height: 40px;
+  }
+  .exercise-title strong {
+    font-size: 10px;
+  }
+  .exercise-title small {
+    font-size: 8px;
+  }
+  .exercise-row {
+    gap: 6px;
+  }
+  .body-transform {
+    height: 530px;
+    width: 260px;
+  }
+  .workout-layout {
+    gap: 32px;
+    grid-template-columns: minmax(0, 1fr) 205px;
+  }
+  .progress-chart .section-heading {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .plan-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .plan-day:nth-child(-n + 4) {
+    border-bottom: 1px solid var(--line);
+  }
+  .plan-day:nth-child(4) {
+    border-right: 0;
+  }
+  .history-layout {
+    gap: 32px;
+    grid-template-columns: 250px 1fr;
+  }
+  .history-list .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .history-list .search-field {
+    width: 100%;
+    max-width: none;
+  }
+  .history-row {
+    gap: 12px;
+  }
+  .history-actions {
+    gap: 0;
+  }
+}
+@media (max-width: 900px) {
+  .header {
+    height: 76px;
+    padding: 0 24px;
+    gap: 12px;
+  }
+  .header .brand {
+    font-size: 27px;
+  }
+  .header nav {
+    gap: 20px;
+  }
+  .header-actions {
+    gap: 6px;
+  }
+  .header-actions .primary {
+    padding: 10px 12px;
+  }
+  .header-actions .primary span {
+    font-size: 11px;
+  }
+  .header-actions .icon-button {
+    display: none;
+  }
+  main {
+    padding: 32px 24px 24px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  .page-heading {
+    gap: 20px;
+  }
+  .search-wrap {
+    min-width: 200px;
+    max-width: 200px;
+  }
+  .atlas-layout {
+    grid-template-columns: 1fr 300px;
+    min-height: 640px;
+  }
+  .overview {
+    display: none;
+  }
+  .anatomy {
+    border-left: 0;
+  }
+  .body-stage {
+    height: 610px;
+  }
+  .body-transform {
+    height: 545px;
+    width: 267px;
+  }
+  .body-callout {
+    right: calc(50% + 40px);
+  }
+  .map-foot {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .atlas-footer > span:nth-child(2) {
+    display: none;
+  }
+  .toolbar-controls {
+    gap: 6px;
+  }
+  .toolbar-title {
+    font-size: 11px;
+    gap: 7px;
+  }
+  .segmented.small button {
+    padding: 4px 8px;
+  }
+  .toolbar-controls > select {
+    padding: 6px;
+    font-size: 11px;
+  }
+  .workout-layout {
+    grid-template-columns: 1fr;
+  }
+  .session-aside {
+    display: none;
+  }
+  .progress-layout {
+    grid-template-columns: 1.5fr 1fr;
+  }
+  .progress-chart {
+    padding-right: 24px;
+  }
+  .muscle-summary {
+    padding-left: 24px;
+  }
+  .history-layout {
+    grid-template-columns: 220px 1fr;
+    gap: 24px;
+  }
+  .history-row {
+    flex-wrap: wrap;
+  }
+  .history-actions {
+    margin-left: 64px;
+  }
+  .routine-card {
+    gap: 20px;
+  }
+  .routine-card h2 {
+    font-size: 17px;
+  }
+  .routine-actions {
+    gap: 6px;
+  }
+  .routine-actions .primary,
+  .routine-actions .secondary {
+    padding: 9px 12px;
+  }
+  .start-layout {
+    gap: 32px;
+    padding: 24px 0;
+  }
+  .start-session {
+    padding: 32px;
+  }
+}
+@media (max-width: 680px) {
+  .header {
+    height: auto;
+    flex-wrap: wrap;
+    padding: 18px 20px 0;
+    gap: 16px;
+  }
+  .header .brand {
+    font-size: 28px;
+  }
+  .header .brand svg {
+    width: 26px;
+  }
+  .header-actions {
+    margin-left: auto;
+  }
+  .header-actions .icon-button {
+    display: flex;
+  }
+  .header-actions .primary {
+    min-height: 38px;
+    padding: 8px 10px;
+    gap: 6px;
+  }
+  .header nav {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 16px;
+    height: 44px;
+  }
+  .header nav button {
+    font-size: 12px;
+    flex: 1;
+  }
+  .header-actions .primary span {
+    font-size: 10px;
+  }
+  .header-actions .primary svg {
+    width: 14px;
+  }
+  main {
+    padding: 28px 20px 20px;
+  }
+  .page-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 24px;
+  }
+  .page-heading .eyebrow {
+    font-size: 9px;
+    margin-bottom: 9px;
+  }
+  h1 {
+    font-size: 31px;
+    letter-spacing: -1.25px;
+  }
+  .page-heading p {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  .search-wrap {
+    margin-top: 0;
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+  }
+  .search-field {
+    min-height: 43px;
+  }
+  .atlas-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px 0;
+  }
+  .toolbar-title {
+    font-size: 12px;
+  }
+  .toolbar-title .switch {
+    margin-left: auto;
+  }
+  .toolbar-controls {
+    justify-content: space-between;
+  }
+  .toolbar-controls > select {
+    font-size: 12px;
+    flex: 1;
+    padding-left: 0;
+    max-width: 150px;
+  }
+  .segmented.small button {
+    font-size: 11px;
+    padding: 5px 12px;
+  }
+  .control-divider {
+    display: none;
+  }
+  .atlas-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .anatomy {
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    min-height: 570px;
+  }
+  .body-stage {
+    height: 528px;
+    padding-top: 52px;
+  }
+  .body-transform {
+    height: 475px;
+    width: 232px;
+  }
+  .view-switch {
+    top: 16px;
+  }
+  .body-callout {
+    top: 160px;
+    right: calc(50% + 36px);
+  }
+  .body-callout span {
+    font-size: 8px;
+  }
+  .body-callout i {
+    width: 20px;
+  }
+  .orientation {
+    left: 5px;
+    bottom: 32px;
+    font-size: 8px;
+  }
+  .map-foot {
+    padding: 0 0 14px;
+    font-size: 10px;
+    min-height: 42px;
+  }
+  .map-foot > span {
+    font-size: 10px;
+  }
+  .zoom-tools button {
+    padding: 7px;
+  }
+  .zoom-tools {
+    gap: 3px;
+  }
+  .zoom-tools span {
+    font-size: 10px;
+  }
+  .inspector {
+    border-left: 0;
+    padding: 28px 0;
+  }
+  .inspector-label {
+    font-size: 11px;
+    margin-bottom: 13px;
+  }
+  .inspector h2 {
+    font-size: 27px;
+  }
+  .region {
+    font-size: 11px;
+  }
+  .description {
+    font-size: 13px;
+  }
+  .muscle-total {
+    margin: 20px 0 24px;
+    align-items: center;
+  }
+  .muscle-total strong {
+    font-size: 34px;
+  }
+  .muscle-total small {
+    max-width: none;
+    font-size: 10px;
+  }
+  .muscle-total > span {
+    font-size: 11px;
+  }
+  .muscle-total div > span {
+    font-size: 11px;
+  }
+  .function-details summary {
+    font-size: 12px;
+  }
+  .panel-tabs button {
+    font-size: 13px;
+  }
+  .exercise-row {
+    padding: 17px 0;
+  }
+  .exercise-glyph {
+    height: 48px;
+    width: 48px;
+  }
+  .exercise-title {
+    gap: 14px;
+  }
+  .exercise-title strong {
+    font-size: 13px;
+  }
+  .exercise-title small {
+    font-size: 10px;
+  }
+  .add-round {
+    height: 36px;
+    width: 36px;
+  }
+  .browse {
+    font-size: 12px;
+  }
+  .atlas-footer {
+    flex-wrap: wrap;
+    padding: 16px 0;
+    font-size: 9px;
+    gap: 12px;
+  }
+  .range-controls {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .range-controls label {
+    flex: 1;
+    min-width: 140px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .range-controls input {
+    width: 100%;
+  }
+  .modal {
+    width: calc(100% - 16px);
+    max-height: 94dvh;
+    border-radius: 12px;
+  }
+  .modal-head {
+    padding: 16px 18px;
+  }
+  .modal-head h2 {
+    font-size: 17px;
+  }
+  .modal-content {
+    padding: 20px 16px;
+  }
+  .modal .exercise-title strong {
+    font-size: 12px;
+  }
+  .modal .exercise-title small {
+    font-size: 10px;
+  }
+  .filter-row {
+    gap: 6px;
+  }
+  .filter-row select {
+    font-size: 11px;
+    min-width: 100px;
+  }
+  .exercise-demo {
+    gap: 20px;
+    padding: 16px;
+    height: 220px;
+  }
+  .exercise-demo .body-svg {
+    width: 85px;
+  }
+  .exercise-demo h3 {
+    font-size: 19px;
+  }
+  .exercise-demo .eyebrow {
+    font-size: 8px;
+  }
+  .detail-grid {
+    gap: 18px;
+  }
+  .detail-grid p {
+    font-size: 12px;
+  }
+  .fields {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .fields > label {
+    min-width: 85px;
+  }
+  .inline-form {
+    flex-direction: column;
+  }
+  .modal-content .log-exercise,
+  .log-exercise {
+    padding: 16px 12px;
+    margin-bottom: 20px;
+  }
+  .log-exercise-head {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .log-exercise-head h3 {
+    font-size: 14px;
+  }
+  .log-exercise-head small {
+    font-size: 10px;
+  }
+  .row-tools {
+    gap: 4px;
+    flex-basis: 100%;
+    justify-content: flex-end;
+    margin-top: -4px;
+  }
+  .row-tools button {
+    padding: 7px;
+  }
+  .session-name {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .session-name label {
+    font-size: 12px;
+  }
+  .set-table {
+    min-width: 445px;
+  }
+  .set-table td {
+    padding: 7px 3px;
+  }
+  .set-table th {
+    font-size: 9px;
+  }
+  .session-actions {
+    gap: 12px;
+  }
+  .session-actions .secondary {
+    font-size: 11px;
+    padding: 10px 12px;
+  }
+  .session-actions .text-button {
+    font-size: 11px;
+  }
+  .start-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 0;
+  }
+  .start-session {
+    padding: 28px;
+  }
+  .start-session h2 {
+    font-size: 22px;
+  }
+  .routine-card {
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 24px 0;
+  }
+  .routine-number {
+    font-size: 20px;
+  }
+  .routine-card > div:nth-child(2) {
+    flex: 1;
+  }
+  .routine-card h2 {
+    font-size: 18px;
+  }
+  .routine-actions {
+    margin-left: 38px;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .plan-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .plan-day {
+    min-height: 170px;
+    padding: 18px 14px;
+    border-bottom: 1px solid var(--line);
+  }
+  .plan-day:nth-child(even) {
+    border-right: 0;
+  }
+  .plan-day select {
+    font-size: 11px;
+    padding: 8px;
+  }
+  .section-heading {
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .section-heading h2 {
+    font-size: 20px;
+  }
+  .section-heading p {
+    font-size: 11px;
+  }
+  .section-heading select {
+    max-width: 110px;
+    font-size: 11px;
+  }
+  .progress-layout {
+    grid-template-columns: 1fr;
+  }
+  .progress-chart {
+    padding: 0 0 24px;
+    border-right: 0;
+  }
+  .progress-chart .section-heading {
+    gap: 16px;
+  }
+  .progress-chart .section-heading select {
+    max-width: none;
+    width: 100%;
+  }
+  .chart-record {
+    margin: 24px 0 16px;
+  }
+  .chart-record > span {
+    font-size: 9px;
+    max-width: 170px;
+  }
+  .line-chart {
+    height: auto;
+    min-height: 160px;
+  }
+  .muscle-summary {
+    padding: 28px 0;
+    border-top: 1px solid var(--line);
+  }
+  .history-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-top: 28px;
+  }
+  .calendar {
+    max-width: 360px;
+    width: 100%;
+    margin: auto;
+  }
+  .calendar-grid button {
+    height: 40px;
+  }
+  .history-list .section-heading {
+    gap: 18px;
+  }
+  .history-list .search-field {
+    min-width: 0;
+    max-width: none;
+  }
+  .history-row {
+    gap: 12px;
+    flex-wrap: nowrap;
+  }
+  .history-row h3 {
+    font-size: 12px;
+  }
+  .history-row p {
+    font-size: 10px;
+  }
+  .history-actions {
+    margin-left: auto;
+    gap: 0;
+    flex-wrap: wrap;
+    max-width: 62px;
+    justify-content: flex-end;
+  }
+  .history-actions .icon-button {
+    min-width: 29px;
+    width: 29px;
+    height: 30px;
+  }
+  .history-actions .text-button {
+    width: 100%;
+    justify-content: center;
+    padding: 3px;
+    font-size: 11px;
+  }
+  .history-date {
+    width: 33px;
+  }
+  .history-date strong {
+    font-size: 21px;
+  }
+  .sample-badge {
+    font-size: 8px;
+    margin-left: 4px;
+  }
+  .active-workout {
+    bottom: 16px;
+    right: 16px;
+    padding: 12px 14px;
+    font-size: 11px;
+    max-width: calc(100% - 32px);
+  }
+  .active-workout small {
+    font-size: 9px;
+  }
+  .rest-toast {
+    left: 16px;
+    bottom: 16px;
+    gap: 12px;
+    padding: 10px 12px;
+  }
+  .rest-toast strong {
+    font-size: 22px;
+  }
+  .toast {
+    bottom: 88px;
+    font-size: 12px;
+    padding: 12px 16px;
+    width: max-content;
+    max-width: calc(100% - 32px);
+  }
+  .settings-actions {
+    flex-direction: column;
+  }
+  .error-banner {
+    padding: 12px 20px;
+  }
+  .history-total {
+    font-size: 11px;
+  }
+  .modal-content > .primary:last-child {
+    margin-top: 12px;
+  }
+}
+.compact-legend {
+  display: none;
+}
+@media (max-width: 900px) {
+  .compact-legend {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .compact-legend > div > span {
+    font-size: 10px;
+    color: var(--secondary);
+  }
+  .compact-scale {
+    display: flex;
+    gap: 5px;
+    margin-top: 6px;
+  }
+  .compact-scale > span {
+    font-size: 9px;
+    color: var(--secondary);
+    width: 36px;
+    text-align: center;
+  }
+  .compact-scale i {
+    display: block;
+    height: 6px;
+    border-radius: 2px;
+    margin-bottom: 4px;
+  }
+  .compact-legend > .text-button {
+    margin-left: auto;
+    font-size: 10px;
+  }
+  .header-actions .icon-button {
+    display: flex;
+  }
+}
+@media (max-width: 680px) {
+  .anatomy {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: var(--bg);
+    min-height: 374px;
+    max-height: 374px;
+    box-shadow: 0 4px 8px #20382705;
+  }
+  .body-stage {
+    height: 332px;
+    padding-top: 48px;
+    flex-shrink: 0;
+  }
+  .body-transform {
+    height: 285px;
+    width: 140px;
+  }
+  .body-callout {
+    top: 118px;
+    right: calc(50% + 22px);
+  }
+  .view-switch {
+    top: 10px;
+  }
+  .view-switch button {
+    font-size: 11px;
+    min-height: 28px;
+    padding: 5px 20px;
+  }
+  .orientation {
+    bottom: 18px;
+  }
+  .map-foot {
+    height: 42px;
+  }
+  .inspector {
+    position: relative;
+  }
+  .compact-legend {
+    gap: 8px;
+  }
+  .compact-scale > span {
+    width: 32px;
+  }
+  .compact-legend > .text-button {
+    font-size: 9px;
+    max-width: 80px;
+    text-align: right;
+  }
+  .add-round {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  .icon-button {
+    min-height: 40px;
+    min-width: 40px;
+  }
+  .zoom-tools button {
+    min-width: 32px;
+    min-height: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .body-stage .muscle {
+    touch-action: none;
+  }
+  .plan-day .text-button {
+    min-height: 40px;
+  }
+  .muscle-chips button {
+    min-height: 36px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
